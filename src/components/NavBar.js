@@ -4,12 +4,12 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="#">
-        <span className="logo-name">
-          <i class="fas fa-briefcase"></i>
-          Portfolio
-        </span>
-        </a>
+        <div className="logo">
+          <a className="navbar-brand" href="#">
+            <i class="fas fa-briefcase"></i>
+            Portfolio
+          </a>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,7 +19,7 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="fa-solid fa-bars" style={{ color: "white"}}></i>
+          <i class="fa-solid fa-bars" style={{ color: "white" }}></i>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
