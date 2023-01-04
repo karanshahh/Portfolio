@@ -1,0 +1,27 @@
+.home-content {
+    display: grid;
+    text-align: center;
+}   
+
+.home-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.25rem;
+    font-size: 30px;
+}
+
+.home-title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.home-subtitle {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.home-description {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-thin);
+}
