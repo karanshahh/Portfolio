@@ -35,13 +35,18 @@ const NavBar = () => {
             </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#research">
-              <i class="fa-solid fa-file"></i> Research
+            <a class="nav-link" href="#skills">
+              <i class="fa-solid fa-bolt-lightning"></i> Skills
             </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#projects">
               <i class="fa-solid fa-laptop-code"></i> Projects
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#research">
+              <i class="fa-solid fa-file"></i> Research
             </a>
           </li>
           <li class="nav-item active">

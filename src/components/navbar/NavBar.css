@@ -1,5 +1,5 @@
 .nav-link:hover {
-  color: var(--title-color);
+  color: var(--card-color-1);
 }
 
 .navbar {
