@@ -1,0 +1,50 @@
+.proj-content {
+  background-color: #282828;
+}
+
+.proj-box {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.proj-card {
+  background-color: var(--card-color-1);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  border-color: rgb(213, 235, 16);
+}
+
+.proj-title {
+  font-size: var(--h3-font-size);
+}
+
+.proj-main-title {
+  font-size: var(--big-font-size);
+  text-align: center;
+  color: var(--main-title-color-1);
+}
+
+.proj-description {
+    font-size: var(--small-font-size);
+}
+
+
+.proj-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.025
+  );
+}

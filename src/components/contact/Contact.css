@@ -1,0 +1,64 @@
+.contact-button {
+  text-decoration: none;
+}
+
+.contact-title {
+  font-size: var(--big-font-size);
+  text-align: center;
+  color: var(--main-title-color-1);
+}
+
+.contact {
+  background-color: #282828;
+}
+
+.contact-content-form,
+.contact-card-title {
+  color: var(--main-title-color-1);
+}
+
+.send-message {
+  background-color: var(--main-title-color-1);
+  margin-right: 20px;
+}
+
+.contact-form {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100px;
+}
+
+.contact-content-form {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-input {
+  margin-right: 10px;
+}
+
+.contact-form-inner-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  margin-right: 20px;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgb(206, 202, 195);
+}

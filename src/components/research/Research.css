@@ -1,0 +1,43 @@
+.research-box {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.research-card {
+  background-color: var(--card-color-2);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+.research-main-title {
+  font-size: var(--big-font-size);
+  text-align: center;
+}
+
+.research-title {
+  font-size: var(--h3-font-size);
+  color: var(--card-color-1);
+}
+
+.research-description {
+  font-size: var(--small-font-size);
+  color: var(--card-color-1);
+}
+
+.research-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.025);
+}
