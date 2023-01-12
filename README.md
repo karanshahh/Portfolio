@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Karan Shah - Personal Website
+
+This project was bootstrapped with [Create React App](https://karanshahh.netlify.app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
